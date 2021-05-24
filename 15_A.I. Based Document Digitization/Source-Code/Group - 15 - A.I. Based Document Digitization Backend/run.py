@@ -98,7 +98,7 @@ def getExtractedText(type,data):
   """
   Parameters: data: file name to extraxt text  """
   # Setting Environment Variable for Vision API
-  # os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credentials.json"
+  os.environ["GOOGLE_APPLICATION_CREDENTIALS"] = "credentials.json"
   client = vision.ImageAnnotatorClient()
   type ="img"
   textToPredict = ""

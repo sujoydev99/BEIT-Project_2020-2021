@@ -25,7 +25,7 @@ const NavItems = [
     logo: <PicLeftOutlined />,
   },
   {
-    name: "Conntributions",
+    name: "Contributions",
     path: "/contributions",
     logo: <AlignCenterOutlined />,
   },

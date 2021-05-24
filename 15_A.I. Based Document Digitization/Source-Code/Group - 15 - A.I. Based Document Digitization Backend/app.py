@@ -29,7 +29,7 @@ app.config['UPLOAD_FOLDER'] =  UPLOAD_FOLDER
 app.config['RETRAIN_UPLOAD_FOLDER'] =  RETRAIN_UPLOAD_FOLDER
 app.config['PDF_UPLOAD_FOLDER'] =  PDF_UPLOAD_FOLDER
 # enabled cors fo accessing through react
-CORS(app)
+#CORS(app)
 myclient = PyMongo(app, uri="mongodb://localhost:27017/docs?readPreference=primary&appname=MongoDB%20Compass&ssl=false")
 db = myclient   .db
 
