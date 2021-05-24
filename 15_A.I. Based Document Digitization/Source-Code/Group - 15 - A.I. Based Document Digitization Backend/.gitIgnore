@@ -1,0 +1,11 @@
+/node_modules
+/uploads/*
+/retrains/*
+/pdfUploads/*
+/__pycache__
+/Lib
+/scripts
+/dataset/training-data
+training-data.rar
+dataset.zip
+credentials.json

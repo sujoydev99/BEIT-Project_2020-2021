@@ -1,0 +1,160 @@
+.logo {
+  width: 120px;
+  height: 31px;
+  margin: 16px 28px 16px 0;
+  float: left;
+}
+.logonav {
+  width: auto;
+  height: 40px;
+  margin: 16px 0px 16px 0;
+  float: left;
+}
+
+h4 {
+  margin: 0 !important;
+  color: #fff !important;
+}
+.startTest {
+  background: #f49e05 !important;
+  border: none !important;
+}
+.endTest {
+  background: #d92b2b !important;
+  border: none !important;
+}
+.customMenu {
+  display: flex;
+  justify-content: space-between;
+}
+
+.flagsContainer {
+  display: flex;
+}
+.flagsContainer > .ant-progress > .ant-progress-text {
+  display: none !important;
+}
+.flagsContainer > .ant-progress > .ant-progress-outer {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.customCard > .ant-card-body {
+  padding: 10px;
+}
+.customCard {
+  box-shadow: 0px 0px 19px -7px rgba(0, 0, 0, 0.3);
+}
+.customCard.centeredCard {
+  height: 100%;
+  align-self: center;
+}
+
+.customProgress
+  > .ant-progress-outer
+  > .ant-progress-inner
+  > .ant-progress-success-bg {
+  background-color: #f49e05;
+}
+.flag_yellow {
+  background-color: #f49e05;
+  border-radius: 25px;
+  width: 10px;
+  height: 10px;
+}
+
+.flag_red {
+  background-color: #d92b2b;
+  border-radius: 25px;
+  width: 10px;
+  height: 10px;
+}
+.flagsTable {
+  max-height: 35vh;
+  overflow-y: scroll;
+}
+table {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+.questionNumber {
+  margin: 5px 0px 0px 15px;
+  height: 30px;
+  width: 30px;
+  text-align: center;
+  display: flex;
+  background-color: #f49e05;
+  float: left;
+}
+.activeques {
+  background-color: #1890ff;
+}
+.sound-wave {
+  height: 75px;
+  max-width: 300px;
+}
+.mediaopts {
+  /* font-size: 25px; */
+  margin: 20px;
+  border-radius: 25px;
+  padding: 5px;
+  background-color: #fff;
+  box-shadow: 0px 0px 19px -7px rgba(0, 0, 0, 0.3);
+}
+.mediaopts:hover {
+  background-color: #f49e05;
+  color: #fff;
+}
+
+.loggedinnav {
+  /* margin-top: 12px; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff !important;
+  padding: 0px 20px 0px 20px !important;
+}
+.loginnav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* background: #fff !important; */
+  padding: 0px 20px 0px 20px !important;
+}
+.loggedInBG {
+  padding: 20px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testBody {
+  padding: 10px;
+}
+.lbl {
+  margin-bottom: 10px;
+}
+.gradeTag {
+  border-radius: 50px !important;
+}
+.flagsTable2 {
+  max-height: 40vh;
+  overflow-y: scroll;
+}
+.onboarding-steps {
+  padding: 100px;
+  display: flex;
+  /* max-width: fit-content; */
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.ant-table-cell{
+  font-weight: bold!important;
+}
+.object-key-val{
+  font-weight: bold!important;
+}
